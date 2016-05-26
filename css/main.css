@@ -1,0 +1,111 @@
+body, h1, h2, h3, p, a{
+	font-family: 'Kanit', sans-serif;
+}
+
+.navbar{
+	background-color: #ffffff;
+	border-bottom: 2px solid #666666;
+	margin: 0;
+}
+
+.navbar ul li a{
+	color: #262626;
+	font-weight: 600;
+}
+
+#center-nav ul li{
+	width: 200px;
+	text-align: center;
+}
+
+.navbar-brand img{
+	width: 250px;
+}
+
+.navbar-brand{
+	padding: 5px 0 0 0;
+	margin-right: 120px;
+}
+
+#main-cta {
+	padding: 50px 0;
+	background: url("../images/AdobeStock_93853334.jpeg") center center no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+#main-cta .container{
+	position: relative;
+}
+
+#main-cta h1, #main-cta h2{
+	text-transform: uppercase;
+	font-style: italic;
+	text-align: center;
+	color: #ffffff;
+}
+
+#main-cta h1 span{
+	color: #EB1C24;
+}
+
+#main-cta button{
+	padding: 10px 0;
+	border: none;
+	font-style: italic;
+	background-color: #1485CC;
+	color: #ffffff;
+	font-size: 1.25em;
+}
+
+#overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,.5);
+	z-index: 0;
+}
+
+
+
+#home-find h2, #home-find p{
+	text-transform: uppercase;
+	font-style: italic;
+	text-align: center;
+}
+
+#home-find h2 span{
+	color: #EB1C24;
+}
+
+#home-find input{
+	height: 50px;
+	margin-top: 10px;
+	font-size: 1.25em;
+}
+
+#home-find input:focus{
+	outline: none;
+}
+
+#home-find input[type="submit"]{
+	padding: 10px 0;
+	border: none;
+	font-style: italic;
+	background-color: #1485CC;
+	color: #ffffff;
+	font-size: 1.25em;
+}
+
+footer{
+	background-color: #262626;
+	padding: 40px 20px;
+	color: #ffffff;
+	margin-top: 100px;
+}
+
+footer a{
+	display: block;
+}
