@@ -27,7 +27,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand navbar-left" href="index.html"><img src = "images/logo.png"></a>
+          <a class="navbar-brand navbar-left" href="index.html"><img src = "images/logo.png" alt = "Motor Meetup"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -45,30 +45,31 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-    <div id = "main-cta">
-      <div id = "overlay">
-          <!-- empty overlay -->
-      </div>
-      <div class = "container">
-        <h1>A <span>home</span> for gear heads.</h1>
-        <h2>Join our community and easily find car meetups in your area.</h2>
-        <button class = "col-md-2 col-md-offset-5">Join Now</button>
+    <div class = "container">
+      <h1 class = 'main-title' id = "welcome-message">Welcome to Motor Meetup!</h1>
+      <div class = "row" id = "confirmation-row">
+        <div id = "findameet" class = "col-md-5">
+          <h1 class = "main-title">Find a meet</h1>
+          <p>Find a local car meet near you.</p>
+          <form action = "browse.html">
+            <div class = "form-group">
+                <input type = "text" placeholder = "Zip Code" name = "zipcode">
+            </div>
+            <div class = "form-group">
+                <input type = "submit" value = "Go">
+            </div>
+          </form>
+        </div>
+        <div class = "col-md-2" id = "split">
+          <p>- OR -</p>
+        </div>
+        <div id = "startameet" class = "col-md-5">
+          <h1 class = "main-title">Start a meet</h1>
+          <p>No car meets near you? Start your own.</p>
+          <a href= "start.html" id = "startameet-button" class = "col-md-6">Start a Meet</a>
+        </div>
       </div>
     </div>
-    <section id = "home-find">
-      <div class = "container">
-        <h2>Find a car meet near <span>you.</span></h2>
-        <p>Enter your zipcode to find meetups with other car enthusiasts in your area.</p>
-        <form action = "">
-          <div class = "form-group">
-            <input type = "text" placeholder = "Zip" name = "zipcode" class = "col-md-4 col-md-offset-4"></input>
-          </div>
-          <div class = "form-group">
-            <input type = "submit" value = "Go" class = "col-md-4 col-md-offset-4"></input>
-          </div>
-        </form>
-      </div>
-    </section>
 
     <footer>
       <div class = "container">
